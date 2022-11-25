@@ -31,6 +31,6 @@ let MatrizDasMedias = MatrizComAsNotas.map(function(notas){
 for (let i = 0; i < atletas.length; i++){
     console.log(`Atleta: ${atletas[i].nome}`)
     console.log(`Notas Obtidas: ${MatrizComAsNotas[i]}` )
-    console.log( `Notas Obtidas: ${MatrizDasMedias[i]}` )
+    console.log( `Média Válida: ${MatrizDasMedias[i]}` )
     console.log( '----------------')
 }
